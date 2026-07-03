@@ -382,6 +382,14 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {homePosts.map((post) => (
               <article key={post.slug} className="bg-white rounded-2xl overflow-hidden border border-slate-200/60 shadow-xs flex flex-col justify-between transition-all hover:shadow-md">
+                <div className="relative h-48 w-full bg-slate-100">
+                  <Image 
+                    src={post.category === 'gelo' ? '/images/gelo.png' : '/images/mesas_cadeiras.png'} 
+                    alt={post.title} 
+                    fill
+                    className="object-cover"
+                  />
+                </div>
                 <div className="p-6 flex-1">
                   <div className="flex items-center gap-2 mb-4">
                     <span className="text-xs font-semibold px-2.5 py-1 rounded-md bg-blue-50 text-[#0866FF] uppercase">

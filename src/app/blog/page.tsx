@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { posts } from "@/data/posts";
 import { 
   ArrowLeft, 
@@ -70,6 +71,14 @@ export default function BlogHome() {
               key={post.slug} 
               className="bg-white rounded-2xl overflow-hidden border border-slate-200/80 shadow-xs flex flex-col justify-between transition-all hover:shadow-md"
             >
+              <div className="relative h-48 w-full bg-slate-100">
+                <Image 
+                  src={post.category === 'gelo' ? '/images/gelo.png' : '/images/mesas_cadeiras.png'} 
+                  alt={post.title} 
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-4">
                   <span className="text-xs font-semibold px-2 py-1 rounded bg-blue-50 text-[#0866FF] uppercase">
