@@ -168,7 +168,7 @@ export default function Home() {
             <div className="flex flex-col bg-slate-50 rounded-2xl overflow-hidden border border-slate-100 shadow-sm transition-all hover:shadow-md">
               <div className="h-56 relative bg-slate-200">
                 <Image 
-                  src="/images/marcelo mesas aluguel de mesas em anchieta.jpg" 
+                  src="/images/mesas_cadeiras.png" 
                   alt="Aluguel de Mesas Plásticas" 
                   fill
                   className="object-cover"
@@ -192,7 +192,7 @@ export default function Home() {
             <div className="flex flex-col bg-slate-50 rounded-2xl overflow-hidden border border-slate-100 shadow-sm transition-all hover:shadow-md">
               <div className="h-56 relative bg-slate-200">
                 <Image 
-                  src="/images/mesas e cadeiras em anchieta.jpg" 
+                  src="/images/mesas_cadeiras.png" 
                   alt="Aluguel de Cadeiras Plásticas Brancas" 
                   fill
                   className="object-cover"
@@ -216,7 +216,7 @@ export default function Home() {
             <div className="flex flex-col bg-slate-50 rounded-2xl overflow-hidden border border-slate-100 shadow-sm transition-all hover:shadow-md">
               <div className="h-56 relative bg-slate-200">
                 <Image 
-                  src="/images/gelo em anchieta rj.jpg" 
+                  src="/images/gelo.png" 
                   alt="Sacos de gelo para festas" 
                   fill
                   className="object-cover"
