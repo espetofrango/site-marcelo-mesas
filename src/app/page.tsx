@@ -136,7 +136,7 @@ export default function Home() {
             <div className="lg:col-span-5 relative flex justify-center">
               <div className="relative w-full max-w-md aspect-square rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10">
                 <Image 
-                  src="/images/mesas_cadeiras.png" 
+                  src="/images/aluguel mesa cadeiras gelo em anchieta.png" 
                   alt="Mesas e cadeiras de plástico brancas aluguel Marcelo mesas" 
                   fill
                   className="object-cover"
@@ -168,7 +168,7 @@ export default function Home() {
             <div className="flex flex-col bg-slate-50 rounded-2xl overflow-hidden border border-slate-100 shadow-sm transition-all hover:shadow-md">
               <div className="h-56 relative bg-slate-200">
                 <Image 
-                  src="/images/mesas_cadeiras.png" 
+                  src="/images/marcelo mesas aluguel de mesas em anchieta.jpg" 
                   alt="Aluguel de Mesas Plásticas" 
                   fill
                   className="object-cover"
@@ -192,7 +192,7 @@ export default function Home() {
             <div className="flex flex-col bg-slate-50 rounded-2xl overflow-hidden border border-slate-100 shadow-sm transition-all hover:shadow-md">
               <div className="h-56 relative bg-slate-200">
                 <Image 
-                  src="/images/mesas_cadeiras.png" 
+                  src="/images/mesas e cadeiras em anchieta.jpg" 
                   alt="Aluguel de Cadeiras Plásticas Brancas" 
                   fill
                   className="object-cover"
@@ -216,7 +216,7 @@ export default function Home() {
             <div className="flex flex-col bg-slate-50 rounded-2xl overflow-hidden border border-slate-100 shadow-sm transition-all hover:shadow-md">
               <div className="h-56 relative bg-slate-200">
                 <Image 
-                  src="/images/gelo.png" 
+                  src="/images/gelo em anchieta rj.jpg" 
                   alt="Sacos de gelo para festas" 
                   fill
                   className="object-cover"
